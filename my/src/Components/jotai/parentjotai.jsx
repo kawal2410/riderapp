@@ -2,8 +2,8 @@ import React from "react";
 import HeaderDisplay from "./headerDisplay";
 import Actionbutton from "./buttons";
 import Displaytext from "./whitedisplay";
-import { useAtom } from "jotai";
-import { Buttontabs } from "../../store.js/store";
+// import { useAtom } from "jotai";
+// import { Buttontabs } from "../../store.js/store";
 
 const ParentJoati = () => {
   return (
