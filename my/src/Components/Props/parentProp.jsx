@@ -35,7 +35,7 @@ const ParentProp = () => {
 
           <button
             onClick={() => setfirstValue(firstValue - 1)}
-            className="border py-[5px] px-[5px] bg-orange-500"
+            className="border py-[5px] px-[5px] bg-red-500"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
