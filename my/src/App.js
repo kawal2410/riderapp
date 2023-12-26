@@ -1,7 +1,13 @@
 
 import './App.css';
+import ParentJoati from './Components/jotai/parentjotai';
+// import Actionbutton from './Components/jotai/buttons';
+// import Displaytext from './Components/jotai/whitedisplay';
+// import HeaderDisplay from './Components/jotai/headerDisplay';
+// import Jotaitutorial from './Components/index/testjotai';
 // import Fooddrink from './Components/FirstApp/foodDrink';
-import ParentApp from './Components/FirstApp/parentApp';
+// import ParentApp from './Components/FirstApp/parentApp';
+// import TestJotai from './Components/index/tutHooks';
 // import Rider from './Components/FirstApp/rider';
 // import Logo from './Components/FirstApp/rightLeft';
 // import BottomFile from './Components/Buttonprops/BottomFile';
@@ -46,15 +52,17 @@ function App() {
           {/* <Todolistone/> */}
           {/* <BottomFile/> */}
         {/* <EffectTutorial/> */}
-        <ParentApp/>
+        {/* <ParentApp/> */}
         {/* <Rider/> */}
              {/* <Logo/> */}
               {/* <Fooddrink/> */}
-              
-
-
-
         {/* <Todolistone/> */}
+          {/* <Jotaitutorial/> */}
+        {/* <TestJotai/> */}
+        {/* <HeaderDisplay/> */}
+       {/* <Actionbutton/> */}
+           {/* <Displaytext/> */}
+           <ParentJoati/>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Whitedisplay from "./whiteDisplay";
 
 const Button = ({ ...prop }) => {
   console.log("prop1", prop.prop);
@@ -14,7 +15,7 @@ const Button = ({ ...prop }) => {
             onClick={() => add(item)}
             className={`${
               prop?.prop?.Result?.title === item?.title
-                ? `bg-red-500`
+                ? `bg-blue-700`
                 : `bg-blue-500`
             } border  py-[10px] px-[10px]   rounded-t-lg`}
           >
@@ -22,8 +23,6 @@ const Button = ({ ...prop }) => {
           </button>
         ))}
       </div>
-
-      {/* <ButtonFile button={result} /> */}
     </div>
   );
 };
