@@ -9,7 +9,10 @@ const BottomFile = () => {
     { button: "actionbutton3", title: "Tab three" },
     { button: "actionbutton4", title: "Tab four" },
   ];
-  const [Result, setResult] = useState(" ");
+  const [Result, setResult] = useState({
+    button: "actionbutton1",
+    title: "Tab one",
+  });
   console.log("Result", Result);
   return (
     <div className="">
@@ -20,12 +23,14 @@ const BottomFile = () => {
           setResult={setResult}
         />
       </div>
-      <Whitedisplay
-        Whitedisplay={Actionbutton}
-        headerProp={Actionbutton}
-        Result={Result}
-        setResult={setResult}
-      />
+      <div className="">
+        <Whitedisplay
+          Whitedisplay={Actionbutton}
+          headerProp={Actionbutton}
+          Result={Result}
+          setResult={setResult}
+        />
+      </div>
     </div>
   );
 };
